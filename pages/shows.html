@@ -2,24 +2,45 @@
 <html lang="en">
   <head>
     <meta chatset="utf-8" />
-    <link href="/style.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
     <link rel="icon" href="./img/favicon.ico" />
     <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&family=Inter&display=swap"
+      rel="stylesheet"
+    />
     <title>Shows</title>
   </head>
 
   <body>
     <div class="container">
       <header>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Cinzel&family=Inter&display=swap"
-          rel="stylesheet"
-        />
         <h1 class="discografias">Dance with the Dead</h1>
         <!-- nav -->
-        <nav>
+        <div class="menu">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/pages/discos.html"
+                >Discografías</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <!-- <nav>
           <div class="menu">
             <ul>
               <li><a href="/index.html">Home</a></li>
@@ -28,11 +49,17 @@
               <li><a href="/pages/contacto.html">Contacto</a></li>
             </ul>
           </div>
-        </nav>
+        </nav> -->
       </header>
       <section>
         <article>
           <h2>Tour</h2>
+          <img
+            src="../img/tocando pues.jpg"
+            alt="the band playing live"
+            width="550"
+            height="420"
+          />
 
           <ul class="tour">
             <li>Aug 17 Doug Fir Lounge Portland, OR</li>
