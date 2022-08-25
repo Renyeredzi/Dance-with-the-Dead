@@ -1,0 +1,256 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.7333333333);
+}
+
+body {
+  color: rgba(0, 0, 0, 0.7333333333);
+  font-family: sans-serif;
+  border-top: 10px solid #0f962c;
+  font-size: 16px;
+  /* background-image: url(./img/dance-with-the-dead-sledge.jpg); */
+  /* SMALLER ELEMENTS */
+  /*links */
+  /* NAVIGATION */
+  /* -------Formulario de contacto----- */
+  /* ANIMACIONES */
+  /* MEDIA */
+  /* EXTRA GRANDES */
+  /* GRANDES */
+  /* MEDIO */
+  /* PEQUEÑO */
+}
+body header {
+  text-align: center;
+  background: url("../img/album2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #ffffff;
+  display: inline-block;
+  /* background-size: cover; */
+}
+body h1 {
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #10ad5e;
+  margin-left: 5%;
+}
+body h2 {
+  font-size: 40px;
+  margin-bottom: 1%;
+  margin-top: 15%;
+  color: #10ad5e;
+  position: relative;
+  font-family: "Cinzel", serif;
+}
+body p {
+  color: rgba(247, 247, 247, 0.8156862745);
+  font-size: 22px;
+  margin-bottom: 15px;
+  margin-left: 0.5%;
+  line-height: 1.5;
+}
+body body {
+  background-color: rgba(84, 145, 194, 0.068);
+  position: relative;
+}
+body ol {
+  color: rgba(247, 247, 247, 0.8156862745);
+  list-style-type: decimal;
+  font-size: 22px;
+  margin-bottom: 15px;
+  margin-left: 4.5%;
+  line-height: 1.5;
+}
+body a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+body a:visited {
+  color: #1098ad;
+}
+body a:hover {
+  color: orangered;
+  font-weight: bold;
+  -webkit-text-decoration: underline orangered;
+          text-decoration: underline orangered;
+}
+body a:active {
+  background-color: black;
+  font-style: italic;
+}
+body .menu ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+body .menu li {
+  display: inline-block;
+}
+body .menu ul li a {
+  display: block;
+  padding: 10px;
+}
+body nav {
+  font-size: 18px;
+}
+body nav nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+body .container {
+  min-height: 100vh;
+  width: 90%;
+  max-width: 75em;
+  margin: 1.25rem auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+body .copyright {
+  color: #0f962c;
+}
+body footer p {
+  color: green;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-left: 0.5%;
+}
+body .discografias {
+  border-bottom: 1px solid;
+  border-color: orangered;
+  font-size: 24px;
+  font-weight: 500;
+  overflow: hidden;
+  padding: 6px 0;
+}
+body aside {
+  border-style: solid;
+  border-color: orangered;
+  border-radius: 3px;
+  border-width: 1px;
+  float: right;
+  width: 200px;
+}
+body ul {
+  margin-left: 1%;
+}
+body .aside {
+  color: rgba(247, 247, 247, 0.8156862745);
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: orangered;
+  padding: 6px 0;
+  margin-bottom: 1px;
+  list-style: none;
+}
+body .tour {
+  color: rgba(247, 247, 247, 0.8156862745);
+  line-height: 1.5;
+  list-style: none;
+}
+body .contenedor {
+  background: fixed;
+  background-image: url(../img/integrantes.jpg);
+}
+body .contenedor .form .form-header .form-title {
+  font-weight: normal;
+  font-family: sans-serif;
+  text-align: center;
+  color: #10ad5e;
+  padding: 14px 0;
+}
+body .contenedor .form {
+  background: rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 650px;
+  margin: auto;
+  padding: 5px 35px;
+  padding-bottom: 30px;
+  border-radius: 3px;
+}
+body .contenedor .form .form-label {
+  display: block;
+  color: #0f962c;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+}
+body .contenedor .form .form-input,
+body .form-textarea {
+  background: rgba(0, 0, 0, 0.7);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #0f962c;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #ffffff;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
+}
+body .contenedor .form,
+body .form-textarea {
+  resize: vertical;
+}
+body .contenedor .form .btn-submit {
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  outline: none;
+  background: #1098ad;
+  font-size: 16px;
+  border: none;
+  color: #ffffff;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+body .contenedor .form .btn-submit:hover {
+  background: rgba(7, 216, 248, 0.8823529412);
+}
+body h1 {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: fadein;
+          animation-name: fadein;
+  -webkit-animation-iteration-count: initial;
+          animation-iteration-count: initial;
+}
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 1200px) {
+  body body {
+    font-size: 14px;
+  }
+}
+@media (max-width: 576px) {
+  body .about {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */
