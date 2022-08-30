@@ -11,13 +11,20 @@
       href="https://fonts.googleapis.com/css2?family=Cinzel&family=Inter&display=swap"
       rel="stylesheet"
     />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
     <title>Shows</title>
   </head>
 
   <body>
     <div class="container">
       <header>
-        <h1 class="discografias">Dance with the Dead</h1>
+        <h1>Dance with the Dead</h1>
         <!-- nav -->
         <div class="menu">
           <ul class="nav justify-content-center">
@@ -60,24 +67,84 @@
             width="550"
             height="420"
           />
-
-          <ul class="tour">
-            <li>Aug 17 Doug Fir Lounge Portland, OR</li>
-            <li>Aug 17 Doug Fir Lounge Portland, OR</li>
-            <li>Aug 18 Neurolux Lounge Boise, ID</li>
-            <li>Aug 18 Neurolux Lounge Boise, ID</li>
-            <li>Aug 19 Psycho Las Vegas Las Vegas, NV</li>
-            <li>Aug 21 The Ritz San Jose, CA</li>
-            <li>Aug 21 The Ritz San Jose, CA</li>
-            <li>Aug 22 Volcanic Theater Pub Bend, OR</li>
-            <li>Aug 22 Volcanic Theater Pub Bend, OR</li>
-            <li>Aug 23 Madame Lou's Seattle, WA</li>
-            <li>Aug 24 The Shakedown Bellingham, WA</li>
-            <li>Sep 16 Nachtleben Frankfurt, Germany</li>
-            <li>Sep 17 De Helling Utrecht, Netherlands</li>
-            <li>Sep 18 Thekla Bristol, UK</li>
-            <li>Sep 19 Scala London, UK</li>
-          </ul>
+          <table class="tour table table-dark table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Date</th>
+                <th scope="col">Stadium</th>
+                <th scope="col">State</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Aug 17</td>
+                <td>Doug Fir Lounge Portland</td>
+                <td>Oregon</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Aug 18</td>
+                <td>Neurolux Lounge Boise</td>
+                <td>Idaho</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Aug 19</td>
+                <td>Psycho, Las vegas</td>
+                <td>Nevada</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Aug 21</td>
+                <td>The Ritz, San Jose</td>
+                <td>California</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Aug 22</td>
+                <td>Volcanic Theater Pub Bend</td>
+                <td>Oregon</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Aug 23</td>
+                <td>Madame Lou's Seattle</td>
+                <td>Washington</td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>Aug 24</td>
+                <td>The Shakedown Bellingham</td>
+                <td>Washington</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>Sep 16</td>
+                <td>Nachtleben Frankfurt</td>
+                <td>Germany</td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>Sep 17</td>
+                <td>De Helling Trecht</td>
+                <td>Netherlands</td>
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td>Sep 18</td>
+                <td>Thekla Bristol</td>
+                <td>UK</td>
+              </tr>
+              <tr>
+                <th scope="row">11</th>
+                <td>Sep 19</td>
+                <td>Scala London</td>
+                <td>UK</td>
+              </tr>
+            </tbody>
+          </table>
         </article>
       </section>
 
@@ -85,5 +152,15 @@
         <p id="copyright" class="copyright text">By Mauro Guerra &copy;.</p>
       </footer>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
