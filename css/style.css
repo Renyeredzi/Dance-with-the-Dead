@@ -113,9 +113,9 @@ nav nav a:link {
 }
 
 .container {
-  /* min-height: 100vh; */
-  /* width: 90%;
-  /* max-width: 75em; */
+  min-height: 100vh;
+  width: 90%;
+  max-width: 75em;
   margin: 1.25rem auto;
   position: relative;
   display: flex;
@@ -276,5 +276,9 @@ h1 {
 @media (max-width: 576px) {
   .about {
     display: block;
+  }
+  body {
+    font-size: 14px;
+    background-position: 50%;
   }
 }
